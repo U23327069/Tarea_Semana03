@@ -6,11 +6,13 @@ public class Ejercicio2_Semana03 {
         // Entrada de datos
         System.out.print("Ingrese un numero entero: ");
         numero = lectura.nextInt();        
-        // Condicional doble
+        //Aplicamos la condicional doble
         if (numero % 2 == 0) {
             System.out.println("El numero es par.");
         } else {
+            //Salida de datos
             System.out.println("El numero es impar.");
+            //Fin de programa
         }
     }    
 }

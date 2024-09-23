@@ -6,7 +6,7 @@ public class Ejercicio1_Semana03 {
         int numero;        
         // Entrada de datos
         System.out.print("Ingrese un numero entero: ");
-        numero = lectura.nextInt();        
+        numero = lectura.nextInt();
         //Aplicamos la condicional simple
         if (numero > 0) {
             //Salida de datos

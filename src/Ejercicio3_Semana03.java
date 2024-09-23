@@ -3,10 +3,10 @@ public class Ejercicio3_Semana03 {
     public static void main(String[] args) {
         Scanner lectura=new Scanner (System.in);
         int dia;
-        // Entrada de datos
-        System.out.print("Ingrese un número (1-7) para saber el día de la semana: ");
+        //Aplicamos lo valores iniciales
+        System.out.print("Ingrese un numero del 1 al 7 para saber el dia de la semana: ");
         dia = lectura.nextInt();        
-        // Condicional múltiple con switch
+        //Aplicaremos la condicional múltiple switch
         switch (dia) {
             case 1:
                 System.out.println("Lunes");
@@ -15,7 +15,7 @@ public class Ejercicio3_Semana03 {
                 System.out.println("Martes");
                 break;
             case 3:
-                System.out.println("Miércoles");
+                System.out.println("Miercoles");
                 break;
             case 4:
                 System.out.println("Jueves");
@@ -24,13 +24,13 @@ public class Ejercicio3_Semana03 {
                 System.out.println("Viernes");
                 break;
             case 6:
-                System.out.println("Sábado");
+                System.out.println("Sabado");
                 break;
             case 7:
                 System.out.println("Domingo");
                 break;
             default:
-                System.out.println("Número no válido. Ingrese un número entre 1 y 7.");
+                System.out.println("Numero no valido. Ingrese un numero entre 1 al 7.");
         }
     }    
 }
